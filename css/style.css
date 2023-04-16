@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+*{font-family: 'Rubik', sans-serif;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62,5%;
+}
+body {
+    background-image: url(../img/retina_wood.png);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    }
+p {
+    color: rgb(83, 16, 16);
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+}
+h1 {
+    color: rgb(129, 11, 240); font-size: 2.8rem;
+}
+h2 {
+    color: hsl(271, 76%, 53%); font-size: 2.5rem;
+}
+h3 {
+    color: rgb(164, 85, 238); font-size: 2.5rem;
+}
+.titulo-nav {
+    color: brown;font-size: 3.5rem; text-decoration: none;
+}
+.text-center {
+    text-align: center;
+}
+.text-27 {
+    font-size: 2.1rem;
+}
+.text-25 {
+    font-size: 1.9rem;
+}
+.img100 {
+    width: 100%;
+}
+.precios {
+    display: flex;justify-content: center;
+}
+.contacto {
+    display: flex;justify-content: flex-end;
+}
+nav {
+    background-color: rgb(245, 133, 99, .3);
+    padding: 8px 30px;
+    height: auto;
+    position: sticky;
+    width: 100;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+    nav ul {
+        list-style: none;
+        display: flex;
+    }
+        nav ul li {
+            margin: 10px;
+        }
+            nav ul li a {
+                color: rgb(126, 139, 5);text-decoration: none;
+                        font-size: 1.5rem;
+                    }
+    nav ol {
+        list-style: inside;
+        font-size: 1.5rem;
+    }
+form {
+    font-size: 1.4rem;}
+    form label {
+        display: flex;justify-content: flex-start;
+    }
+table {
+    font-size: 2rem;
+    height: auto;
+    width: auto; 
+    padding: 90px;
+    position: auto;
+    width: auto;
+}          
+.contenedor {
+    background-color: rgb(245, 133, 99, .3);
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 40px 10px 30px 10px;
+    border: outset 1px rgba(241, 115, 115, 0.3);
+}
+#gridfotos {
+      width: 99%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 33% 33% 33%;
+      row-gap: 5px;
+      column-gap: 1px;
+      grid-template-areas: 
+      "foton1 foton2 foton3"
+      "foton4 foton5 foton6"
+      "foton7 foton8 foton9";
+}
+
+.foto1 {
+    grid-area: foton1;
+}
+.foto2 {
+    grid-area: foton2;
+    }
+.foto3 {
+    grid-area: foton3;
+}
+.foto4 {
+    grid-area: foton4;
+}
+.foto5 {
+    grid-area: foton5;
+}
+.foto6 {
+    grid-area: foton6;
+}
+.foto7 {
+    grid-area: foton7;
+}
+.foto8 {
+    grid-area: foton8;
+}
+.foto9 {
+    grid-area: foton9;
+}
+
+#gridindex {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 64% 6% 8% 8% 5%;
+    grid-template-areas: 
+    "atardecer"
+    "servicios"
+    "embarcacion"
+    "equipoycarnada"
+    "refrigerio";
+}
+.atardecer {
+    grid-area: atardecer;
+}
+.servicios {
+    grid-area: servicios;
+}
+.embarcacion {
+    grid-area: embarcacion;
+}
+.equipoycarnada {
+    grid-area: equipoycarnada;
+}
+.refrigerio {
+    grid-area: refrigerio;
+}
+ 
+@media (width < 320px) {
+    #gridfotos {
+                grid-template-columns: 1fr;
+                grid-template-rows: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
+                grid-template-areas: 
+                                    "foton1"
+                                    "foton2"
+                                    "foton3"
+                                    "foton4"
+                                    "foton5"
+                                    "foton6"
+                                    "foton7"
+                                    "foton8"
+                                    "foton9";
+    }
+    #gridindex {
+                grid-template-columns: 3fr;
+                grid-template-rows: 33% 33% 33%;
+                grid-template-areas:
+                    "atardecer atardecer atardecer"
+                            "servicios"
+                    "embarcacion equipoycarndada refrigerio";
+    }
+}
+
+footer {
+        display: flex;justify-content: space-between;
+        }
+        footer div svg {
+                        width: 30px;
+                        fill: rgb(74, 74, 255);}
+        footer ul {
+                    list-style: none;}
+            footer ul li a {
+                            text-decoration: none;
+                            font-size: 1.4rem;
+                            color: brown;
+                        }
+            
+                

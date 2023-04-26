@@ -1,150 +1,102 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
-
-*{font-family: 'Rubik', sans-serif;
-    box-sizing: border-box;
-}
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap");
 html {
-    font-size: 62,5%;
+  font-size: 62, 5%;
 }
-body {
-    background-image: url(../img/retina_wood.png);
-    background-repeat: repeat;
-    background-attachment: fixed;
-    }
-p {
-    color: rgb(83, 16, 16);
-    font-weight: 400;
-    font-size: 1.8rem;
-    line-height: 2.4rem;
+html body {
+  background-image: url(../img/retina_wood.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
 }
-h1 {
-    color: rgb(129, 11, 240); font-size: 2.8rem;
+html body p {
+  color: rgb(83, 16, 16);
+  font-weight: 400;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
 }
-h2 {
-    color: hsl(271, 76%, 53%); font-size: 2.5rem;
+html body h1 {
+  color: rgb(129, 11, 240);
+  font-size: 2.8rem;
 }
-h3 {
-    color: rgb(164, 85, 238); font-size: 2.5rem;
+html body h2 {
+  color: hsl(271, 76%, 53%);
+  font-size: 2.5rem;
 }
-.titulo-nav {
-    color: brown;font-size: 3.5rem; text-decoration: none;
+html body h3 {
+  color: rgb(164, 85, 238);
+  font-size: 2.3rem;
 }
-.text-center {
-    text-align: center;
+html body table {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  height: auto;
+  width: auto;
+  padding: 50px;
+  position: auto;
+  width: auto;
 }
-.text-27 {
-    font-size: 2.1rem;
+html body div form {
+  font-size: 1.4rem;
 }
-.text-25 {
-    font-size: 1.9rem;
+html body div form label {
+  display: flex;
+  justify-content: flex-start;
 }
-.img100 {
-    width: 100%;
+html body .text-27 {
+  font-size: 2.1rem;
 }
-.precios {
-    display: flex;justify-content: center;
+html body .text-25 {
+  font-size: 1.9rem;
 }
-.contacto {
-    display: flex;justify-content: flex-end;
+html body .contacto {
+  display: flex;
+  justify-content: flex-end;
 }
-nav {
-    background-color: rgb(245, 133, 99, .3);
-    padding: 8px 30px;
-    height: auto;
-    position: sticky;
-    width: 100;
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+html body .precios {
+  display: flex;
+  justify-content: center;
 }
-    nav ul {
-        list-style: none;
-        display: flex;
-    }
-        nav ul li {
-            margin: 10px;
-        }
-            nav ul li a {
-                color: rgb(126, 139, 5);text-decoration: none;
-                        font-size: 1.5rem;
-                    }
-    nav ol {
-        list-style: inside;
-        font-size: 1.5rem;
-    }
-form {
-    font-size: 1.4rem;}
-    form label {
-        display: flex;justify-content: flex-start;
-    }
-table {
-    font-size: 2rem;
-    height: auto;
-    width: auto; 
-    padding: 90px;
-    position: auto;
-    width: auto;
-}          
-.contenedor {
-    background-color: rgb(245, 133, 99, .3);
-    width: 100%;
-    height: auto;
-    margin: 0px;
-    padding: 40px 10px 30px 10px;
-    border: outset 1px rgba(241, 115, 115, 0.3);}
-#gridindex {
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 64% 6% 8% 8% 5%;
-    grid-template-areas: 
-    "atardecer"
-    "servicios"
-    "embarcacion"
-    "equipoycarnada"
-    "refrigerio";
+html body .img100 {
+  width: 100%;
 }
-.atardecer {
-    grid-area: atardecer;
+html body footer {
+  display: flex;
+  justify-content: space-between;
 }
-.servicios {
-    grid-area: servicios;
+html body footer div svg {
+  width: 30px;
+  fill: rgb(74, 74, 255);
 }
-.embarcacion {
-    grid-area: embarcacion;
+html body footer ul {
+  list-style: none;
 }
-.equipoycarnada {
-    grid-area: equipoycarnada;
-}
-.refrigerio {
-    grid-area: refrigerio;
-}
- 
-@media (width < 320px) {  
-    #gridindex {
-                grid-template-columns: 3fr;
-                grid-template-rows: 33% 33% 33%;
-                grid-template-areas:
-                    "atardecer atardecer atardecer"
-                            "servicios"
-                    "embarcacion equipoycarndada refrigerio";
-    }
+html body footer ul li a {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: brown;
 }
 
-footer {
-        display: flex;justify-content: space-between;
-        }
-        footer div svg {
-                        width: 30px;
-                        fill: rgb(74, 74, 255);}
-        footer ul {
-                    list-style: none;}
-            footer ul li a {
-                            text-decoration: none;
-                            font-size: 1.4rem;
-                            color: brown;
-                        }
-            
-                
+nav {
+  background-color: rgba(245, 133, 99, 0.3);
+  padding: 8px 30px;
+  height: auto;
+  position: sticky;
+  width: 100;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  color: rgb(126, 139, 5);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+nav ol {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
+/*# sourceMappingURL=style.css.map */

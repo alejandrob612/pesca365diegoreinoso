@@ -31,11 +31,11 @@ html body {
   background-attachment: fixed;
 }
 html body p {
-  display: flex;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.8rem;
   padding: 10px;
   color: rgb(83, 16, 16);
   font-weight: 400;
-  font-size: 1.8rem;
   line-height: 2.4rem;
 }
 html body h1 {

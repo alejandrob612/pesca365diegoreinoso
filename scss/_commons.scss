@@ -7,12 +7,8 @@ html {
     background-repeat: repeat;
     background-attachment: fixed;
    
-    p { display: flex;
-        padding: 10px;
-        color: rgb(83, 16, 16);
-        font-weight: 400;
-        font-size: 1.8rem;
-        line-height: 2.4rem
+    p {
+        @include textos(1.8rem,10px,rgb(83, 16, 16),400,2.4rem)
       }
     h1 {
         color: $maincolor; font-size: $textL;

@@ -6,7 +6,9 @@ html {
     background-image: url(../img/retina_wood.png);
     background-repeat: repeat;
     background-attachment: fixed;
-    p {
+   
+    p { display: flex;
+        padding: 10px;
         color: rgb(83, 16, 16);
         font-weight: 400;
         font-size: 1.8rem;
@@ -56,6 +58,7 @@ html {
         }
         footer {
             display: flex;justify-content: space-between;
+            margin-top: 10%;
             
                 div {
                     svg {

@@ -1,4 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap");
+nav {
+  background-color: rgba(245, 133, 99, 0.3);
+  padding: 8px 30px;
+  height: auto;
+  position: sticky;
+  width: 100;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li a {
+  color: rgb(126, 139, 5);
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+nav ol {
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.5rem;
+}
+
 html {
   font-size: 62, 5%;
 }
@@ -8,6 +31,8 @@ html body {
   background-attachment: fixed;
 }
 html body p {
+  display: flex;
+  padding: 10px;
   color: rgb(83, 16, 16);
   font-weight: 400;
   font-size: 1.8rem;
@@ -62,6 +87,7 @@ html body .img100 {
 html body footer {
   display: flex;
   justify-content: space-between;
+  margin-top: 10%;
 }
 html body footer div svg {
   width: 30px;
@@ -74,29 +100,6 @@ html body footer ul li a {
   text-decoration: none;
   font-size: 1.4rem;
   color: brown;
-}
-
-nav {
-  background-color: rgba(245, 133, 99, 0.3);
-  padding: 8px 30px;
-  height: auto;
-  position: sticky;
-  width: 100;
-  text-decoration: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-nav ul li a {
-  color: rgb(126, 139, 5);
-  text-decoration: none;
-  font-size: 1.2rem;
-}
-nav ol {
-  text-decoration: none;
-  list-style: none;
-  font-size: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

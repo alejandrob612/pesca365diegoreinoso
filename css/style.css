@@ -84,6 +84,9 @@ html body .precios {
 html body .img100 {
   width: 100%;
 }
+html body .margin7 {
+  margin-top: 7%;
+}
 html body footer {
   display: flex;
   justify-content: space-between;

@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap");
 nav {
-  background-color: rgba(245, 133, 99, 0.3);
+  background-color: rgba(214, 179, 62, 0.9);
   padding: 8px 30px;
   height: auto;
   position: sticky;
@@ -16,7 +16,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 1.2rem;
 }
-nav ol {
+nav ol li a {
   text-decoration: none;
   list-style: none;
   font-size: 1.5rem;

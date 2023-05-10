@@ -1,5 +1,5 @@
 nav {
-    background-color: rgb(245, 133, 99, .3);
+    background-color: rgba(214, 179, 62, 0.9);
     padding: 8px 30px;
     height: auto;
     position: sticky;
@@ -20,9 +20,14 @@ nav {
            }
        }
     ol {
-        text-decoration: none;
-        list-style: none;
-        font-size: 1.5rem;
+        li {
+            a{                 
+                text-decoration: none;
+                list-style: none;
+                font-size: 1.5rem;
+             }
+
+            }
         }
   
 }

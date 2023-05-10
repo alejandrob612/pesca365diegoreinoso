@@ -1,4 +1,4 @@
-PRESENTACION
+PRESENTACION 😁
 
   Mi nombre es Diego Alejandro Reinoso, soy odontologo y tengo 39 años.
 
@@ -25,8 +25,6 @@ DESCRIPCION
   Todo lo desarrollado en este proyecto cuenta con version responsive.
 
 Herramientas utilizadas:
-
-  Las herramientas utilizadas para la creacion de este proyecto fueron las siguientes:
   
   Whimsical para la elaboracion de los 10 wireframes 5 desktop y 5 mobile disponibles en formato png en la carpeta homonima dentro del proyecto.
   
@@ -42,6 +40,6 @@ Herramientas utilizadas:
   
 CONCLUSION:
 
-luego de haber terminado el proyecto final me siento muy feliz de haber logrado cumplir esta meta personal. Muy agradecido con la docente Laura, con la tutora Veronica por su tiempo y dedicacion y con el grupo humano de compañeros y compañeras con quienes comparti este caminar en el inicio de mi formacion.  
+Luego de haber terminado el proyecto final me siento muy feliz de haber logrado cumplir esta meta personal. Muy agradecido con la docente Laura, con la tutora Veronica por su tiempo y dedicacion y con el grupo humano de compañeros y compañeras con quienes comparti este caminar en el inicio de mi formacion 🚀  
   
            
